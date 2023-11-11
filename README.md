@@ -1,2 +1,0 @@
-# Sipmihira
-Sipmihira public website
