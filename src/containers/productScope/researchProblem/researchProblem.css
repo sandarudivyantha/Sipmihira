@@ -1,0 +1,29 @@
+.gpt3__features {
+  width: 100%;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.gpt3__header-content {
+  /* flex: 1; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  /* text-align: left; */
+  /* margin-right: 5rem; */
+}
+
+.gpt3__header-content h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+}
+
+.gap {
+  font-size: 16;
+  text-align: justify;
+  font-family: "Roboto";
+}

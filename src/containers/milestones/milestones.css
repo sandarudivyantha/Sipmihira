@@ -1,0 +1,39 @@
+  .sipmihira__timeline {
+    background: linear-gradient(to bottom, #aa66f4 1%, #AE67FA 3%, #b574fa 10%, #F49867 40%, #F49867 60%, #f5b08c 80%, #fff 100%);
+    z-index: 1;
+  }
+
+  .title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  h3 {
+    padding-top: 0.25em;
+  }
+
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+    
+  }
+
+  .date {
+    color: black;
+    font-weight: bold;
+  }
+
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(0, 0, 0);
+      margin-top: 1.5em;
+    }
+  }
