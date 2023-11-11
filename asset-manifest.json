@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Sipmihira/static/css/main.62df07f6.css",
+    "main.js": "/Sipmihira/static/js/main.65804fed.js",
+    "static/js/787.7ed97916.chunk.js": "/Sipmihira/static/js/787.7ed97916.chunk.js",
+    "static/media/solution.png": "/Sipmihira/static/media/solution.c41b12581c2ebca09fa4.png",
+    "static/media/sipmihira_viraj.png": "/Sipmihira/static/media/sipmihira_viraj.3f7f3d7c10a13aa026e4.png",
+    "static/media/sipmihira_lankani.png": "/Sipmihira/static/media/sipmihira_lankani.6c0cea4cd70a28f6d1ef.png",
+    "static/media/sipmihira_suriyaak.png": "/Sipmihira/static/media/sipmihira_suriyaak.189285a891d69d12d351.png",
+    "static/media/sipmihira_ravis.png": "/Sipmihira/static/media/sipmihira_ravis.e4ca5ebaeaf4ad5ba588.png",
+    "static/media/sipmihira_home_first.gif": "/Sipmihira/static/media/sipmihira_home_first.11318ea3b07dcd88ef99.gif",
+    "static/media/sipmihira_hashini.png": "/Sipmihira/static/media/sipmihira_hashini.0ecd7847ddc18843f965.png",
+    "static/media/problems.png": "/Sipmihira/static/media/problems.994752cd40fd13b0258f.png",
+    "static/media/sipmihira_sandaru.png": "/Sipmihira/static/media/sipmihira_sandaru.59af36c1056ae793aea5.png",
+    "static/media/problem2.png": "/Sipmihira/static/media/problem2.521916c1efdbd31f6635.png",
+    "static/media/survayImage.PNG": "/Sipmihira/static/media/survayImage.2a4f0bba92b0fa1f3182.PNG",
+    "static/media/sytemOverview.jpg": "/Sipmihira/static/media/sytemOverview.9e0c12a4724609521f40.jpg",
+    "static/media/sipmihira_key.png": "/Sipmihira/static/media/sipmihira_key.f16539994b84df04992a.png",
+    "static/media/image.png": "/Sipmihira/static/media/image.6e793856d76f7a5805ac.png",
+    "static/media/sipmihira_django_logo.jpg": "/Sipmihira/static/media/sipmihira_django_logo.4a4401aeebff9b09c3cf.jpg",
+    "static/media/sipmihira_python_logo.jpg": "/Sipmihira/static/media/sipmihira_python_logo.ea4729362cc5aa572d42.jpg",
+    "static/media/sipmihira_logo.png": "/Sipmihira/static/media/sipmihira_logo.f3f3204a0628372b1ba2.png",
+    "static/media/sipmihira_nodejs_logo.jpg": "/Sipmihira/static/media/sipmihira_nodejs_logo.413f6107011d5a98f1e9.jpg",
+    "static/media/sipmihira_openCV2_logo.jpg": "/Sipmihira/static/media/sipmihira_openCV2_logo.1433ad31be118021082a.jpg",
+    "static/media/sipmihira-work.svg": "/Sipmihira/static/media/sipmihira-work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/Sipmihira/index.html",
+    "main.62df07f6.css.map": "/Sipmihira/static/css/main.62df07f6.css.map",
+    "main.65804fed.js.map": "/Sipmihira/static/js/main.65804fed.js.map",
+    "787.7ed97916.chunk.js.map": "/Sipmihira/static/js/787.7ed97916.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62df07f6.css",
+    "static/js/main.65804fed.js"
+  ]
+}
