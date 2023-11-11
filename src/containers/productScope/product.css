@@ -1,0 +1,159 @@
+.two-column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header1_lite {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(17, 64, 48);
+  margin-left: 60px;
+}
+
+.header2_lite {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0b0c0c;
+  margin-left: 60px;
+}
+.survey_header {
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Research Gap */
+
+.three-column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left1-column {
+  flex: 1;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.left2-column {
+  flex: 1;
+  padding: 20px;
+}
+.left3-column {
+  flex: 1;
+  padding: 20px;
+}
+
+/*Research bjectives */
+.research-objectives {
+  display: flex;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ada2a2;
+}
+
+.objective {
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.half-border {
+  height: 1px;
+  width: 50%;
+  background-color: #57bb55;
+  margin: 0 auto;
+}
+.objectives_header {
+  font-size: 24px;
+  color: #290101;
+  font-weight: bold;
+  font-family: "Arial", sans-serif;
+}
+
+/* Problem and Solution */
+.p2 {
+  text-align: justify;
+}
+
+/* Methodology8 */
+
+.raw1 {
+  flex: 1;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.raw1 img {
+  width: 100%;
+  height: auto;
+}
+
+.raw2 {
+  flex: 1;
+  padding: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.left-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for screens with a maximum width of 768px (typical mobile devices) */
+@media (max-width: 768px) {
+  .two-column-container,
+  .three-column-container,
+  .research-objectives {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .left1-column,
+  .left2-column,
+  .left3-column,
+  .raw1,
+  .raw2 {
+    flex: 1;
+    padding: 10px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .left-column img,
+  .header1_lite,
+  .header2_lite {
+    max-width: 80%;
+  }
+
+  .half-border {
+    width: 100%;
+  }
+
+  .research-objectives {
+    max-width: 90%;
+  }
+}

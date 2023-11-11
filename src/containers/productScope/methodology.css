@@ -1,0 +1,61 @@
+#methodology, #research-problmes {
+    font-family: 'Roboto', sans-serif;
+}
+
+.raw-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.raw-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.raw-flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    width: 50%;
+    margin-right: 20px;
+}
+.image-container2{
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.paragraph-container {
+    width: 50%;
+}
+
+.paragraph-container p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.image{
+    width: 100%;
+}
+
+.image2{
+    border-radius: 124px;
+    width: 100%;
+    
+}
+.paragraph-container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.p2 {
+    display: inline-block;
+    /* width: 200px; Adjust the width to your desired value */
+    /* height: 100px; Adjust the height to your desired value */
+    background-color: #f0f0f0; /* Change the background color if desired */
+    border: 1px solid #ccc; /* Change the border color if desired */
+    padding: 10px; /* Adjust the padding to your desired value */
+  }

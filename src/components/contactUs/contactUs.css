@@ -1,0 +1,122 @@
+/* contactUs.css */
+/* StyledContactForm styles */
+.StyledContactForm {
+    width: 100%;
+    /* Make the form width 100% for mobile screens */
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.StyledContactForm form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-left: -60px;
+}
+
+.StyledContactForm input,
+.StyledContactForm textarea {
+    width: 100%;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+    margin-left: -60px;
+}
+
+.StyledContactForm input:focus,
+.StyledContactForm textarea:focus {
+    border: 2px solid rgba(0, 206, 158, 1);
+}
+
+.StyledContactForm label {
+    margin-top: 1rem;
+}
+
+.StyledContactForm input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+.formLableHeading {
+    font-weight: bold;
+    margin-left: -60px;
+    margin-bottom: 10px;
+}
+
+/* customTextarea.css */
+
+.custom-textarea {
+    padding: 20px;
+    resize: none;
+    min-height: 100px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+}
+
+.sipmihira__contactUs-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sipmihira__contactUs-container_groupA {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2rem;
+}
+
+.contactDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Horizontally center the text */
+    text-align: left;
+    /* Center the text within the div */
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+}
+
+.contactDetails-p1 {
+    font-size: 20px;
+}
+
+.gradient__text.p2 {
+    font-size: 30px;
+}
+
+.contactDetails-p3 {
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/* Media Query for screens smaller than 768px (typical mobile screens) */
+@media (max-width: 768px) {
+    .StyledContactForm {
+        padding: 10px;
+        /* Reduce padding for smaller screens */
+        margin-left: 15px;
+    }
+
+    .StyledContactForm input[type="submit"] {
+        margin-top: 1rem;
+        /* Adjust the margin for the submit button */
+    }
+
+    .sipmihira__contactUs-container_groupA {
+        flex: 1;
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 2rem;
+    }
+}

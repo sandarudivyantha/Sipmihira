@@ -1,0 +1,56 @@
+.sipmihira__blog {
+    display: flex;
+    flex-direction: column;    
+}
+
+.sipmihira__blog-heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.sipmihira__blog-heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+
+.sipmihira__blog-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.sipmihira__blog-container_groupB {
+    flex: 1;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2.5rem;
+}
+
+.h2{
+    font-size: 30px;
+}
+
+.h3{
+    font-size: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    .sipmihira__blog-container_groupB {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sipmihira__blog-heading h1 {
+        font-size: 46px;
+        line-height: 52px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .sipmihira__blog-heading h1 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+}
+

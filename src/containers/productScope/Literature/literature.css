@@ -1,0 +1,81 @@
+.gpt3__features {
+  width: 100%;
+  /* display: flex; */
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.gpt3__header-content {
+  /* flex: 1; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  /* text-align: left; */
+  /* margin-right: 5rem; */
+}
+
+.gpt3__header-content h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  font-family: var(--font-family);
+}
+
+.card {
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-size: 9px;
+  font-family: Roboto;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.two-column-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex: 1;
+  padding: 20px;
+  margin-left: 40px;
+}
+
+.right-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.left-column img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header1_lite {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(17, 64, 48);
+  margin-left: 60px;
+}
+
+.header2_lite {
+  font-size: 36px;
+  font-weight: bold;
+  color: #0b0c0c;
+  margin-left: 60px;
+}
+.survey_header {
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  font-family: "Roboto", sans-serif;
+}
+
+.gap {
+  font-size: 16;
+  text-align: justify;
+  font-family: "Roboto";
+}
